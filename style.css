@@ -197,7 +197,6 @@ font-family: 'Oswald', sans-serif;
     padding: 10px 5px 10px 5px;
 }
 
-
 .mapa {
     position: absolute;
     top: 20%;
@@ -228,3 +227,101 @@ font-family: 'Oswald', sans-serif;
     padding: 5px;
     text-shadow: #000 2px 3px 2px;
 }
+
+
+
+/* ------------------ 5° CONTAINER imagem --------------------------- */
+
+
+.container-5 {
+    height: 100vh;
+    max-width: 100%;
+    background-color: black;
+    background-image: url("img/cafeteria.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.container-5 h2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.lista {
+    position: absolute;
+    max-width: 768px;
+    margin: 0 auto;
+    top: 35%;
+    left: 35%;
+    right: 40%;
+    color:white;
+}
+
+.lista li { 
+    position: relative;
+}
+
+.lista li h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.lista li div{
+    width: 65%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    margin-left: 20%;
+    bottom: 50%;
+    background-color: #acacac
+}
+
+.lista li p,
+.texto-marrom { /* paragrafo + span*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 110%;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+}
+
+.texto-marrom {
+    color: var(--letter-br-color);
+}
+
+.lista li p {
+    color: #ACACAC;
+}
+
+
+
+
+/* RODAPÉ */
+.rodape {
+    background-color: #000;
+    height: 100px;
+    
+}
+
+.rodape p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.rodape .P1 {
+    padding-top: 20px;
+}
+
